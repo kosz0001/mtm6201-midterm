@@ -18,6 +18,14 @@ nav li {
     color: #96C9DC;
 }
 
+.company {
+    background-color: #61A0AF ;
+}
+
+.owner {
+    background-color: #F1E0F8;
+}
+
 footer {
     background-color: #F5D491;
 }
