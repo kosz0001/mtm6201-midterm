@@ -9,3 +9,19 @@ nav {
 nav li {
     color: #F06C9B;
 }
+
+.featured-products {
+    background-color: #F1E0F8;
+}
+
+.featured-products,h1,h2 {
+    color: #96C9DC;
+}
+
+footer {
+    background-color: #F5D491;
+}
+
+footer,p {
+    color: #F06C9B;
+}
