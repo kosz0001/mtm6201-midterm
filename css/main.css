@@ -5,3 +5,7 @@ header {
 nav {
     background-color: #F5D491;
 }
+
+nav li {
+    color: #F06C9B;
+}
