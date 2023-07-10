@@ -18,6 +18,11 @@ nav li {
     color: #96C9DC;
 }
 
+h1 {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 3rem;
+}
+
 .company {
     background-color: #61A0AF ;
 }
