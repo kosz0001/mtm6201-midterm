@@ -129,6 +129,11 @@ p {
     background-color: #f9b9b7;
 }
 
+.inquiry {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 footer {
     background-color: #F5D491;
     line-height: 1.5rem;
