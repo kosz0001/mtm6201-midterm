@@ -60,6 +60,8 @@ header {
 nav {
     background-color: #F5D491;
     font-family: 'Short Stack', cursive;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 nav li {
