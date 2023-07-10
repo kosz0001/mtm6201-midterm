@@ -134,6 +134,23 @@ p {
     padding-bottom: 2rem;
 }
 
+.inquiry h1 {
+    color: #F06C9B;
+}
+
+.inquiry h2 {
+    color: #F9B9B7;
+}
+
+.hours {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hours h2 {
+    color: #61A0AF ;
+}
+
 footer {
     background-color: #F5D491;
     line-height: 1.5rem;
