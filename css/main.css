@@ -123,6 +123,9 @@ p {
 
 footer {
     background-color: #F5D491;
+    line-height: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 footer,p {
