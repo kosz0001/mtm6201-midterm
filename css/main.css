@@ -115,10 +115,30 @@ p {
     padding-bottom: 2rem;
 }
 
+.company h1 {
+    color: #F9B9B7;
+}
+
+.company h2 {
+    color: #F9B9B7;
+}
+
+.company p {
+    color: #F5E0FA;
+}
+
 .owner {
     background-color: #F1E0F8;
     padding-top: 2rem;
     padding-bottom: 1rem;
+}
+
+.owner h2 {
+    color: #F06C9B;
+}
+
+.owner p {
+    color: #61A0AF;
 }
 
 .inquiry {
