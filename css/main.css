@@ -111,10 +111,14 @@ p {
 
 .company {
     background-color: #61A0AF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .owner {
     background-color: #F1E0F8;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .inquiry {
