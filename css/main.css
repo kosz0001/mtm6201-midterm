@@ -59,6 +59,12 @@ header {
     padding-bottom: 0.5rem;
 }
 
+.buttonsearch {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
 i {
     color:white;
     padding-left: 1rem;
