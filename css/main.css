@@ -59,6 +59,10 @@ header {
     padding-bottom: 0.5rem;
 }
 
+.toplogo {
+    height: 100px;
+}
+
 nav {
     background-color: #F5D491;
     font-family: 'Short Stack', cursive;
