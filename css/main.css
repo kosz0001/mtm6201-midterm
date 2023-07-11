@@ -182,6 +182,10 @@ footer {
     padding-bottom: 0.5rem;
 }
 
+.bottomlogo {
+    height: 100px;
+}
+
 footer,p {
     color: #F06C9B;
 }
