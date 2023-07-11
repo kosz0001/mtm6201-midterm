@@ -211,6 +211,18 @@ input[type=text] {
     padding-bottom: 2rem;
 }
 
+table {
+    width: 100%;
+    color: white;
+    font-family: 'Short Stack', cursive;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+tr {
+    margin-top: 1.5rem;
+}
+
 .hours h2 {
     color: #61A0AF ;
 }
