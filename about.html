@@ -22,7 +22,7 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header id="backtotop">
+    <header role="banner" id="backtotop">
         <img src="images/logo-header.PNG" class="toplogo" alt="Bubble Pop logo">
         <form id="form"> 
             <input type="search" id="mainsearch" name="search" placeholder="Search...">
@@ -33,7 +33,7 @@
         <a href="index.html"><i class="fa-solid fa-cart-shopping"></i></a>
         <a href="contact.html"><i class="fa-solid fa-comment-dots"></i></a>
     </header>
-    <nav>
+    <nav role="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li>Products</li>
@@ -42,7 +42,7 @@
         </ul>
     </nav>
     <a href="#maincontent" aria-label="Skip down page to content regarding Jambox Studios">Skip To Content &darr;</a>
-    <div class="company">
+    <main class="company" role="main">
         <img srcset="images/company-320_x_282.png 320w,
                 images/company-720_x_636.png 720w,
                 images/company-960_x_847.png 960w"
@@ -50,15 +50,16 @@
                 (max-width: 720px) 720px,
                 (max-width: 960px) 960px"
         src="images/company.jpg"
+        role="img"
         alt="company team dressed in pink">
-        <h1 id="maincontent">The Company</h1>
+        <h1 role="heading" id="maincontent">The Company</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus in rerum sint, maiores dignissimos quis delectus harum nostrum dicta voluptatibus aliquam voluptas nesciunt earum ipsum quam aliquid iure vero deleniti.</p>
         <h2>Mission Statement</h2>
         <p>"We want happy owners, and even happier employees!"</p>
         <h2>Vision Statement</h2>
         <p>"Restoring those sugar-sweet childhood memories."</p>
-    </div>
-    <div class="owner">
+    </main>
+    <section class="owner" role="complementary">
         <img srcset="images/owner-320_x_341.png 320w,
                 images/owner-720_x_767.png 720w,
                 images/owner-960_x_1023.png 960w"
@@ -66,12 +67,14 @@
                 (max-width: 720px) 720px,
                 (max-width: 960px) 960px"
         src="images/owner.jpg"
+        role="img"
         alt="close up of owner">
+        <!-- needs aria-details for above -->
         <h2>The Owner</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ullam ex doloremque exercitationem rem cumque praesentium animi sed tenetur officia ratione, quidem fugiat! Labore, obcaecati debitis corporis itaque magnam illo!</p>
-    </div>
+    </section>
     <a href="#backtotop" aria-label="Go back up to the top of the page">Back To Top &uarr;</a>
-    <footer>
+    <footer role="contentinfo">
         <img src="images/logo-footer.PNG" class="bottomlogo" alt="Bubble Pop logo">
         <p>Join our mailing list</p>
         <form id="form"> 
