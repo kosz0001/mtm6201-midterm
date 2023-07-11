@@ -226,6 +226,13 @@ footer {
     height: 100px;
 }
 
+.buttonenter {
+    background: none;
+    border: none;
+    font-family: 'Short Stack', cursive;
+    color: white;
+}
+
 footer,p {
     color: #F06C9B;
 }
