@@ -59,6 +59,10 @@ header {
     padding-bottom: 0.5rem;
 }
 
+i {
+    color:white;
+}
+
 .toplogo {
     height: 100px;
 }
