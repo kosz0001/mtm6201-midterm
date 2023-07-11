@@ -22,7 +22,7 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header id="backtotop">
+    <header role="banner" id="backtotop">
         <img src="images/logo-header.PNG" class="toplogo" alt="Bubble Pop logo">
         <form id="form"> 
             <input type="search" id="mainsearch" name="search" placeholder="Search...">
@@ -33,7 +33,7 @@
         <a href="index.html"><i class="fa-solid fa-cart-shopping"></i></a>
         <a href="contact.html"><i class="fa-solid fa-comment-dots"></i></a>
     </header>
-    <nav>
+    <nav role="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li>Products</li>
@@ -49,9 +49,10 @@
                 (max-width: 720px) 720px,
                 (max-width: 960px) 960px"
         src="images/home-banner.jpg"
-        alt="model with lollipop">
-    <div class="featured-products">
-        <h1 id="maincontent">New Arrivals</h1>
+        alt="model with lollipop"
+        role="img">
+    <main class="featured-products" id="maincontent">
+        <h1 role ="heading" id="maincontent">New Arrivals</h1>
         <h2>Lip Products</h2>
         <img srcset="images/lip-products-320_x_323.png 320w,
                 images/lip-products-720_x_728.png 720w,
@@ -79,9 +80,9 @@
                 (max-width: 960px) 960px"
         src="images/beauty-tools.jpg"
         alt="beauty sponges">
-    </div>
+    </main>
     <a href="#backtotop" aria-label="Go back up to the top of the page">Back To Top &uarr;</a>
-    <footer>
+    <footer role="contentinfo">
         <img src="images/logo-footer.PNG" class="bottomlogo" alt="Bubble Pop logo">
         <p>Join our mailing list</p>
         <form id="form"> 
