@@ -22,7 +22,7 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <header id="backtotop">
+    <header role="banner" id="backtotop">
         <img src="images/logo-header.PNG" class="toplogo" alt="Bubble Pop logo">
         <form id="form"> 
             <input type="search" id="mainsearch" name="search" placeholder="Search...">
@@ -33,7 +33,7 @@
         <a href="index.html"><i class="fa-solid fa-cart-shopping"></i></a>
         <a href="contact.html"><i class="fa-solid fa-comment-dots"></i></a>
     </header>
-    <nav>
+    <nav role="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li>Products</li>
@@ -42,31 +42,31 @@
         </ul>
     </nav>
     <a href="#maincontent" aria-label="Skip down page to content regarding Jambox Studios">Skip To Form &darr;</a>
-    <div class="inquiry">
-        <h1>Contact Us</h1>
+    <main class="inquiry" role="main">
+        <h1 role="heading">Contact Us</h1>
         <h2>Submit an Inquiry</h2>
-        <form action="contact.html" method="get" id="maincontent">
+        <form action="contact.html" method="get" id="maincontent" role="form">
             <div>
                 <label for="name">First and Last Name</label>
                 <input id="name" name="fullname" type="text">
             </div>
             <div>
                 <label for="email">Email</label>
-                <input id="email" name="email" type="text">
+                <input id="email" name="email" type="email">
             </div>
             <div>
                 <label for="subject">Subject</label>
-                <input id="subject" name="subject" type="text">
+                <input id="subject" name="subject" type="subject">
             </div>
             <div>
                 <label for="message">Message</label>
-                <input id="message" name="message" type="text">
+                <input id="message" name="message" type="message">
             </div>
         </form>
         <!-- insert attachment button -->
         <!-- insert send button -->
-    </div>
-    <div class="hours">
+    </main>
+    <section class="hours" role="complementary">
         <h2>Business Hours</h2>
         <table>
             <tbody>
@@ -103,9 +103,9 @@
         <h2>Customer Service Hours</h2>
         <!-- insert decoration icon -->
         <p>Online customer service chat available 24/7</p>
-    </div>
+    </section>
     <a href="#backtotop" aria-label="Go back up to the top of the page">Back To Top &uarr;</a>
-    <footer>
+    <footer role="contentinfo">
         <img src="images/logo-footer.PNG" class="bottomlogo" alt="Bubble Pop logo">
         <p>Join our mailing list</p>
         <form id="form"> 
