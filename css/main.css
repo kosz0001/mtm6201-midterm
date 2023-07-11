@@ -151,7 +151,23 @@ input[type=mailing] {
 input[type=text] {
     border: none;
     border-radius: 20px;
-  }
+}
+
+input[type=email] {
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=subject] {
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=message] {
+    border: none;
+    border-radius: 20px;
+    padding: 3rem;
+}
 
 .company {
     background-color: #61A0AF;
