@@ -85,6 +85,13 @@ nav {
 
 nav li {
     color: #F06C9B;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #96C9DC;
+    width: 100%;
 }
 
 a:link {
