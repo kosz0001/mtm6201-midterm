@@ -119,6 +119,34 @@ p {
     font-family: 'Short Stack', cursive;
 }
 
+form {
+    font-family: 'Chewy', cursive;
+    font-size: 1.2rem;
+    color: #F9B9B7;
+}
+
+input {
+    width: 80%;
+    padding: 0.5rem;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type=search] {
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=mailing] {
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=text] {
+    border: none;
+    border-radius: 20px;
+  }
+
 .company {
     background-color: #61A0AF;
     padding-top: 2rem;
