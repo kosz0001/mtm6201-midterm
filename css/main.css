@@ -334,7 +334,13 @@ tr {
 }
 
 aside i {
-    size: 10rem;
+    font-size: 5rem;
+    transition: none;
+    transform: none;
+}
+
+aside i:hover {
+    transform: none;
 }
 
 footer {
@@ -372,6 +378,10 @@ footer,p {
 @media screen and (min-width: 720px){
     nav {
         display: flex;
+    }
+
+    table {
+        width: 80%;
     }
   }
 
