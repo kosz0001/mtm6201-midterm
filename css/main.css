@@ -101,6 +101,12 @@ nav ul li a:hover {
     width: 100%;
 }
 
+.skiplinks {
+    position: absolute;
+    top: -3em;
+    padding: 1em 1em;
+}
+
 a:link {
     color: #F06C9B;
     text-decoration: none;
