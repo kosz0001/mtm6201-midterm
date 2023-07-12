@@ -154,10 +154,12 @@ p {
 
 .img-company {
     border-radius: 50%;
+    border: 5px solid #F5D491;
 }
 
 .img-owner {
     border-radius: 50%;
+    border: 5px solid #96C9DC;
 }
 
 form {
