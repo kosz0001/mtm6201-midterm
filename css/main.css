@@ -137,6 +137,18 @@ p {
     font-family: 'Short Stack', cursive;
 }
 
+.lip-products {
+    border-radius: 50%;
+}
+
+.eye-products {
+    border-radius: 50%;
+}
+
+.beauty-tools {
+    border-radius: 50%;
+}
+
 form {
     font-family: 'Chewy', cursive;
     font-size: 1.2rem;
