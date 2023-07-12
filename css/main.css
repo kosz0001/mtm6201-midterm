@@ -101,6 +101,12 @@ nav ul li a:hover {
     width: 100%;
 }
 
+.hero {
+    object-fit: fill;
+    width: 100%;
+    height: auto;
+}
+
 .skiplinks {
     position: absolute;
     top: -3em;
@@ -150,36 +156,36 @@ p {
 .lip-products {
     border-radius: 50%;
     border: 3px solid #F9B9B7;
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 90%;
 }
 
 .eye-products {
     border-radius: 50%;
     border: 3px solid #F9B9B7;
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 90%;
 }
 
 .beauty-tools {
     border-radius: 50%;
     border: 3px solid #F9B9B7;
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 90%;
 }
 
 .img-company {
     border-radius: 50%;
     border: 3px solid #F5D491;
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 90%;
 }
 
 .img-owner {
     border-radius: 50%;
     border: 3px solid #96C9DC;
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 90%;
 }
 
 form {
@@ -362,3 +368,15 @@ footer,p {
     font-family: 'Short Stack', cursive;
     color:#96C9DC
 }
+
+@media screen and (min-width: 720px){
+    nav {
+        display: flex;
+    }
+  }
+
+  @media screen and (min-width: 720px){
+    nav {
+        display: flex;
+    }
+  } 
