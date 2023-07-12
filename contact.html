@@ -67,11 +67,13 @@
                 <br>
                 <input id="message" name="message" type="message" placeholder="Type your message here...">
             </div>
-            <!-- this allows customers to upload images to contact form -->
-            <form action="/action_page.php">
-                <input type="file" id="myFile" name="filename">
-                <!-- <input type="submit"> -->
-            </form>
+            <div>
+                <label for="attachments">Attachments</label>
+                <br>
+                <!-- this allows customers to upload images to contact form -->
+                <button type="submit" class="buttonattach"><i class="fa-regular fa-folder-open"></i></button>
+            </div>
+            <button type="submit">Send</button>
         </form>
         <!-- insert send button -->
     </main>
@@ -121,7 +123,6 @@
         <p>Join our mailing list</p>
         <form id="form"> 
             <input type="mailing" id="mailing" name="mailing" placeholder="Your Email Here">
-            <button class="buttonenter">Enter</button>
         </form>
         <a href="about.html" class="footerabout">About</a>
         <a href="contact.html" class="footercontact">Contact Us</a>
