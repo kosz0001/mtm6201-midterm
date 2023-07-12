@@ -221,6 +221,15 @@ input[type=message] {
     padding: 3rem;
 }
 
+.buttonattach {
+    background: none;
+    border: none;
+}
+
+.buttonattach i {
+    font-size: 3rem;
+}
+
 .company {
     background-color: #61A0AF;
     padding-top: 2rem;
