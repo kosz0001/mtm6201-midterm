@@ -149,6 +149,14 @@ p {
     border-radius: 50%;
 }
 
+.img-company {
+    border-radius: 50%;
+}
+
+.img-owner {
+    border-radius: 50%;
+}
+
 form {
     font-family: 'Chewy', cursive;
     font-size: 1.2rem;
