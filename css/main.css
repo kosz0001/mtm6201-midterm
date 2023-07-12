@@ -237,6 +237,7 @@ input[type=message] {
     border-radius: 50%;
     border: none;
     font-size: 1.8rem;
+    font-family: 'Short Stack', cursive;
     background-color: #F9B9B7;
     color: white;
 }
