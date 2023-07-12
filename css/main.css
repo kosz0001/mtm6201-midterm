@@ -139,14 +139,17 @@ p {
 
 .lip-products {
     border-radius: 50%;
+    border: 5px solid #F9B9B7;
 }
 
 .eye-products {
     border-radius: 50%;
+    border: 5px solid #F9B9B7;
 }
 
 .beauty-tools {
     border-radius: 50%;
+    border: 5px solid #F9B9B7;
 }
 
 .img-company {
