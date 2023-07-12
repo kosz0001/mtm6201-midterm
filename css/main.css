@@ -150,26 +150,36 @@ p {
 .lip-products {
     border-radius: 50%;
     border: 3px solid #F9B9B7;
+    height: 300px;
+    width: 300px;
 }
 
 .eye-products {
     border-radius: 50%;
     border: 3px solid #F9B9B7;
+    height: 300px;
+    width: 300px;
 }
 
 .beauty-tools {
     border-radius: 50%;
     border: 3px solid #F9B9B7;
+    height: 300px;
+    width: 300px;
 }
 
 .img-company {
     border-radius: 50%;
     border: 3px solid #F5D491;
+    height: 300px;
+    width: 300px;
 }
 
 .img-owner {
     border-radius: 50%;
     border: 3px solid #96C9DC;
+    height: 300px;
+    width: 300px;
 }
 
 form {
@@ -341,4 +351,14 @@ footer {
 
 footer,p {
     color: #F06C9B;
+}
+
+.footerabout {
+    font-family: 'Short Stack', cursive;
+    color: #96C9DC;
+}
+
+.footercontact {
+    font-family: 'Short Stack', cursive;
+    color:#96C9DC
 }
