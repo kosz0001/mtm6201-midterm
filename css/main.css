@@ -257,6 +257,19 @@ input[type=message] {
     font-family: 'Short Stack', cursive;
     background-color: #F9B9B7;
     color: white;
+    transition: transform 1s;
+}
+
+.send i {
+    transition: none;
+}
+
+.send i:hover {
+    transform: none;
+}
+
+.send:hover {
+    transform: scale(1.2);
 }
 
 .company {
