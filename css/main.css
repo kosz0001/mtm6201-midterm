@@ -140,6 +140,8 @@ h1 {
 h2 {
     font-family: 'Chewy', cursive;
     font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 h3 {
@@ -149,8 +151,7 @@ h3 {
 
 p {
     font-family: 'Short Stack', cursive;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
 }
 
 .lip-products {
