@@ -185,6 +185,11 @@ input {
     box-sizing: border-box;
 }
 
+input::placeholder {
+    font-family: 'Short Stack', cursive;
+    color: #61A0AF;
+}
+
 input[type=search] {
     border: none;
     border-radius: 20px;
