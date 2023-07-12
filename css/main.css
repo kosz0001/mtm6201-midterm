@@ -230,6 +230,17 @@ input[type=message] {
     font-size: 3rem;
 }
 
+.send {
+    margin-top: 2rem;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.8rem;
+    background-color: #F9B9B7;
+    color: white;
+}
+
 .company {
     background-color: #61A0AF;
     padding-top: 2rem;
