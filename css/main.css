@@ -101,6 +101,10 @@ nav ul li a:hover {
     width: 100%;
 }
 
+main {
+    background-color:#61A0AF;
+}
+
 .hero {
     object-fit: fill;
     width: 100%;
@@ -137,13 +141,17 @@ a:visited {
     padding-bottom: 1rem;
 }
 
+h1 {
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 4rem;
+}
+
 .indexh1 {
     background-color: #F1E0F8;
 }
 
-h1 {
-    font-family: 'Cherry Bomb One', cursive;
-    font-size: 4rem;
+.abouth1 {
+    color:#F9B9B7;
 }
 
 h2 {
@@ -151,6 +159,10 @@ h2 {
     font-size: 2rem;
     padding-top: 3rem;
     padding-bottom: 1rem;
+}
+
+.company-all h2 {
+    color: #F9B9B7;
 }
 
 h3 {
@@ -163,8 +175,9 @@ p {
     padding: 1rem;
 }
 
-.team h1 {
-    background-color: #61A0AF;
+.company-all p {
+    color: white;
+    font-size: 1.4rem;
 }
 
 .lip-products {
