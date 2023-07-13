@@ -133,9 +133,12 @@ a:visited {
 }
 
 #maincontent {
-    background-color: #F1E0F8;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.indexh1 {
+    background-color: #F1E0F8;
 }
 
 h1 {
@@ -158,6 +161,10 @@ h3 {
 p {
     font-family: 'Short Stack', cursive;
     padding: 1rem;
+}
+
+.team h1 {
+    background-color: #61A0AF;
 }
 
 .lip-products {
