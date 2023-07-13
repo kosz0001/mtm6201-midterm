@@ -26,8 +26,8 @@
     <div class="top">
         <header role="banner" id="backtotop">
             <img src="images/logo-header.PNG" class="toplogo" alt="Bubble Pop logo">
-            <form id="form"> 
-                <input type="search" id="mainsearch" name="search" placeholder="Search..." role="search">
+            <form id="form" role="search"> 
+                <input type="search" id="mainsearch" name="search" placeholder="Search...">
                 <button class="buttonsearch"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
             <a href="index.html"><i class="fa-solid fa-heart"></i></a>
@@ -61,17 +61,17 @@
                 <input id="email" name="email" type="email" placeholder="Email@email.com">
             </div>
             <div>
-                <label for="subject">Subject</label>
+                <label for="text">Subject</label>
                 <br>
-                <input id="subject" name="subject" type="subject" placeholder="Subject">
+                <input id="text" name="subject" type="text" placeholder="Subject">
             </div>
             <div>
                 <label for="message">Message</label>
                 <br>
-                <input id="message" name="message" type="message" placeholder="Type your message here...">
+                <input id="message" name="message" type="text" placeholder="Type your message here...">
             </div>
             <div>
-                <label for="attachments">Attachments</label>
+                <label>Attachments</label>
                 <br>
                 <!-- this ideally would allow customers to upload images to contact form -->
                 <button type="submit" class="buttonattach"><i class="fa-regular fa-folder-open"></i></button>
@@ -134,8 +134,8 @@
         </div>
         <div class="join">
         <p>Join our mailing list</p>
-            <form id="form"> 
-                <input type="mailing" id="mailing" name="mailing" placeholder="Your Email Here">
+            <form id="form1"> 
+                <input type="email" id="mailing" name="mailing" placeholder="Your Email Here">
                 <button class="buttonenter">Enter</button>
             </form>
         </div>
