@@ -425,6 +425,7 @@ footer,p {
     }
   }
 @media screen and (min-width: 1200px) {
+    /* below is for header */
     .top {
         display: flex;
         flex-direction: row;
@@ -454,6 +455,7 @@ footer,p {
         margin-right: 1.5rem;
         padding-left: 1rem;
       }
+      /* below is for mains */
     main {
         display: inline-flex;
     }
@@ -476,6 +478,7 @@ footer,p {
         top: -4em;
         left: -4em;
     }
+    /* below is for footer */
     footer {
         display: flex;
     }
