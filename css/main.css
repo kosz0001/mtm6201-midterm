@@ -435,11 +435,23 @@ footer,p {
     .toplogo {
         align-items: center;
         height: auto;
-        width: 10%;
+        width: 40%;
+        padding-left: 12rem;
     }
-    .searchbar {
-        width: 10%;
-        justify-content: end;
+    header {
+        display: grid;
+        grid-template-columns: 25% 55% 30px 30px 30px 30px
+    }
+    header form {
+        padding-left: 15rem;
+        padding-top: 3rem;
+    }
+    header a {
+        padding-top: 3.5rem;
+        padding-left: 2rem;
+    }
+    header br {
+        display: none;
     }
     nav {
         display: flex;
