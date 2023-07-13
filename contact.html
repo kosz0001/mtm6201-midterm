@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+    <!-- note: had to change fonts because original not available via Google Fonts -->
     <!-- this is the font awesome icon kit -->
     <script src="https://kit.fontawesome.com/4eec013f80.js" crossorigin="anonymous"></script>
     
@@ -44,13 +45,12 @@
             </ul>
         </nav>
     </div>
-    <a href="#maincontent" class="skiplinks" aria-label="Skip down page to content regarding Jambox Studios">Skip To Form &darr;</a>
+    <a href="#maincontent" class="skiplinks" aria-label="Skip down page to form">Skip To Form &darr;</a>
     <main class="inquiry" role="main">
         <h1 role="heading">Contact Us</h1>
         <h2>Submit an Inquiry</h2>
         <form action="contact.html" method="get" id="maincontent" role="form">
             <div>
-                <!-- is there another way to do these labels -->
                 <label for="name">First and Last Name</label>
                 <br>
                 <input id="name" name="fullname" type="text" placeholder="Full Name">
@@ -73,7 +73,7 @@
             <div>
                 <label for="attachments">Attachments</label>
                 <br>
-                <!-- this allows customers to upload images to contact form -->
+                <!-- this ideally would allow customers to upload images to contact form -->
                 <button type="submit" class="buttonattach"><i class="fa-regular fa-folder-open"></i></button>
             </div>
             <button type="submit" class="send"><i class="fa-solid fa-paper-plane"></i>Send</button>
