@@ -502,6 +502,13 @@ footer,p {
     .owner p {
         font-size: 2rem;
     }
+    .inquiry {
+        display: block;
+    }
+    table {
+        width: 40%;
+        margin-left: 28rem;
+    }
     /* below is for footer */
     footer {
         display: flex;
