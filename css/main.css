@@ -469,7 +469,7 @@ footer,p {
         order: 2;
     }
     footer .footerpkg {
-        /* width: 50%; */
+        width: 50%;
     }
     footer .footerabout {
         order: 3;
