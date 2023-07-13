@@ -132,6 +132,12 @@ a:visited {
     color: #96C9DC;
 }
 
+#maincontent {
+    background-color: #F1E0F8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 h1 {
     font-family: 'Cherry Bomb One', cursive;
     font-size: 4rem;
@@ -389,18 +395,68 @@ footer,p {
     color:#96C9DC
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 720px) and (max-width: 1200px) {
     nav {
-        display: flex;
+        width: 100%;
     }
 
     table {
         width: 80%;
     }
   }
-
-  @media screen and (min-width: 720px){
+@media screen and (min-width: 1200px) {
+    .top {
+        display: flex;
+        flex-direction: row;
+    }
+    .toplogo {
+        /* display: flex;
+        align-items: center; */
+        height: auto;
+        width: 10%;
+    }
+    .searchbar {
+        display: flex;
+        width: 25%;
+        justify-content: end;
+    }
     nav {
         display: flex;
+        order: -1;
+        width: 40%;
     }
-  } 
+    ul {
+        justify-content: center;
+        display: flex;
+        margin-left: 2rem;
+      }
+    li {
+        margin-right: 1.5rem;
+        padding-left: 1rem;
+      }
+    main {
+        display: inline-flex;
+    }
+    main,h1 {
+        justify-content: center;
+    }
+    main,h2 {
+        flex
+    }
+    .lip-products {
+        width: 73%;
+        height: auto;
+    }
+    .eye-products {
+        width: 80%;
+        height: auto;
+    }
+    .beauty-tools {
+        width: 80%;
+        height: auto;
+    }
+    .skiplinks {
+        top: -4em;
+        left: -4em;
+    }
+}
