@@ -482,6 +482,26 @@ footer,p {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .img-company {
+        width: 60%;
+        height: auto;
+    }
+    .owner {
+        display: flex;
+    }
+    .img-owner {
+        width: 40%;
+        height: auto;
+    }
+    .boss {
+        padding-top: 5rem;
+    }
+    .owner h2 {
+        font-size: 5rem;
+    }
+    .owner p {
+        font-size: 2rem;
+    }
     /* below is for footer */
     footer {
         display: flex;
