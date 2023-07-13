@@ -459,4 +459,32 @@ footer,p {
         top: -4em;
         left: -4em;
     }
+    footer {
+        display: flex;
+    }
+    footer .bottomlogo {
+        width: 15%;
+        height: auto;
+        order: 1;
+    }
+    footer .footericons {
+        font-size: 2rem;
+        order: 2;
+    }
+    footer .footerpkg {
+        /* width: 50%; */
+    }
+    footer .footerabout {
+        order: 3;
+    }
+    footer .footercontact {
+        order: 4;
+    }
+    footer .join {
+        order: 5;
+    }
+    footer p {
+        order: 6;
+    }
+
 }
