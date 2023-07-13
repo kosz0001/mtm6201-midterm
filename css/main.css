@@ -478,6 +478,10 @@ footer,p {
         top: -4em;
         left: -4em;
     }
+    .company-all {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     /* below is for footer */
     footer {
         display: flex;
