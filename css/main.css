@@ -421,24 +421,24 @@ footer,p {
     }
 
     table {
-        width: 80%;
+        /* width: 40%;
+        margin-left: 13rem;
+        } */
     }
-  }
-@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1020px) {
     /* below is for header */
     .top {
         display: flex;
         flex-direction: row;
     }
     .toplogo {
-        /* display: flex;
-        align-items: center; */
+        align-items: center;
         height: auto;
         width: 10%;
     }
     .searchbar {
-        display: flex;
-        width: 25%;
+        width: 10%;
         justify-content: end;
     }
     nav {
@@ -465,6 +465,7 @@ footer,p {
     .lip-products {
         width: 73%;
         height: auto;
+        margin-bottom: 2rem;
     }
     .eye-products {
         width: 80%;
@@ -527,15 +528,30 @@ footer,p {
     }
     footer .footerabout {
         order: 3;
+        padding-top: 4rem;
+        padding-right: 5rem;
     }
     footer .footercontact {
         order: 4;
+        padding-top: 4rem;
+        padding-right: 5rem;
     }
     footer .join {
         order: 5;
+        padding-top: 2rem;
+    }
+    footer .join p {
+        margin-bottom: 0;
+    }
+    footer .join input {
+        margin: 0;
     }
     footer p {
-        order: 6;
+        order: 6
+    }
+    footer .copyright {
+        padding-top: 10rem;
+        padding-left: 4rem;
     }
 
 }
