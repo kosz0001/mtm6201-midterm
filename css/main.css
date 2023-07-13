@@ -457,6 +457,7 @@ footer,p {
         display: flex;
         order: -1;
         width: 40%;
+        padding-top: 2.3rem;
     }
     ul {
         justify-content: center;
